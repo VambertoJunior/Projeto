@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FlipRasy - Contato</title>
+        <link rel="shortcut icon" href="imgs/arcade.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Início</li>
+                    </a>
+                    <a href="loja.html">
+                        <li>Loja</li>
+                    </a>
+                    <a href="sobre.html">
+                        <li>Sobre</li>
+                    </a>
+                    <a href="contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="carrinho.html">
+                        <li>Pedido</li>
+                    </a>
+                </ul>
+                <div class="handle">Menu</div>
+            </nav>
+            <div class="texto-jum">
+                <h1>Contato</h1>
+            </div>
+        </header>
+        <section>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh eros, malesuada eu sollicitudin nec, laoreet ac turpis. Sed ultrices orci orci, ut ultrices purus sodales in. Donec sed elit in dolor lacinia gravida vel quis nulla. Nullam laoreet augue ut dictum fringilla. Praesent vel rhoncus leo, non ultrices turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed purus auctor, faucibus risus ut, fringilla lacus. Ut nec pharetra justo. Sed ornare imperdiet tortor, vel efficitur metus varius in. Proin ut viverra ligula.
+
+            Nulla in nunc dolor. Aliquam viverra blandit est vel lobortis. Praesent porta elit id massa pharetra, et accumsan lectus facilisis. Quisque leo nisl, facilisis ac pretium vitae, commodo non augue. Donec nec sapien turpis. Sed sagittis libero massa, nec dignissim arcu dignissim in. Sed metus ipsum, egestas at turpis ac, porta lacinia erat. Sed bibendum risus consequat turpis sodales auctor. Proin blandit justo ut justo congue congue nec vitae felis.
+            
+            Integer eu placerat erat, quis porta tellus. Praesent turpis quam, ultrices vel congue a, ultrices a orci. Mauris ornare, augue ut semper faucibus, risus ante tempus massa, ac ullamcorper felis nunc vel ligula. Etiam aliquet vel ligula at scelerisque. Suspendisse congue eros lorem, et malesuada mauris posuere in. Sed nulla orci, faucibus in aliquam non, cursus sed diam. Curabitur hendrerit elit nec velit posuere, nec volutpat sapien sagittis. Phasellus vitae sem vitae erat sodales egestas ut ut nunc. Donec justo tortor, vehicula eget eleifend eget, finibus in turpis. Nulla vestibulum sem hendrerit, interdum enim in, porta enim.
+        </section>
+        <main>
+            <div class="container-cont">
+                <form action="contato.html">
+              
+                  <label for="fname">Primeiro Nome</label>
+                  <input type="text" id="fname" name="firstname" placeholder="seu nome..">
+              
+                  <label for="lname">Sobrenome</label>
+                  <input type="text" id="lname" name="lastname" placeholder="seu sobrenome..">
+              
+                  <label for="country">Estado</label>
+                  <select id="country" name="country">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                  </select>
+                  <label for="subject">Sugestão</label>
+                  <textarea id="subject" name="subject" placeholder="Escreva aqui" style="height:200px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-baixo">
+                A vida é um game de sobrevivência.
+                <div class="icons">
+                    <img src="https://image.flaticon.com/icons/png/128/1384/1384879.png" alt="Facebook">
+                    <img src="https://image.flaticon.com/icons/png/128/1384/1384886.png" alt="Instagram">
+                    <img src="https://image.flaticon.com/icons/png/128/1384/1384883.png" alt="WhatsApp">
+                    <img src="https://image.flaticon.com/icons/png/128/1384/1384882.png" alt="Twitter">
+                </div>
+            </div>
+        </footer>
+        <script>
+            $('.handle').on('click', function() {
+                $('nav ul').toggleClass('showing');
+            });
+        </script>
+    </body>
+</html>
